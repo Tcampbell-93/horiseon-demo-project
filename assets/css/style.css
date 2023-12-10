@@ -15,18 +15,18 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline;
     font-size: 48px;
     margin: 20px; /* added margin*/
 }
 
-.seo {
+#seo { /* changed to an id selector */
     color: #d9dcd6;
     font-style: normal; /* added font-style normal*/
 }
 
-.header nav {
+nav { /* Changed to target all nav elements */
     padding-top: 20px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ body {
     font-size: 17px; /*changed font size to fit screen*/
 }
 
-.header nav ul li {
+li { /* Changed to target all li elements*/
     list-style-type: none;
     display: inline;
     margin-left: 5px;
-    padding: 5px; /*added padding */
+    padding: 10px; /*added padding */
 }
 
 a {
@@ -91,7 +91,7 @@ figcaption {
     color: #ffffff;
 }
 
-.benefit h3 { /* Consolidated into one class */
+h3 { /* Consolidated into one element */
     margin-bottom: 10px;
     text-align: center;
 }
