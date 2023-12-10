@@ -21,8 +21,9 @@ body {
     margin: 20px; /* added margin*/
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
+    font-style: normal; /* added font-style normal*/
 }
 
 .header nav {
@@ -85,17 +86,17 @@ figcaption {
     background-color: #2589bd;
 }
 
-.benefit { /*consolidated code into one class */
+.benefit { /* Consolidated into one class */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefit h3 { /* Consolidated into one class */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefit img { /* Consolidated into one class */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -110,11 +111,11 @@ figcaption {
     color: #ffffff;
 }
 
-.article img {
+.article img { /* Consolidated into one class */
     max-height: 200px;
 }
 
-.article h2 {
+.article h2 { /* Consolidated into one class */
     margin-bottom: 20px;
     font-size: 36px;
 }
